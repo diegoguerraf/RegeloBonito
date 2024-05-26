@@ -1,0 +1,103 @@
+body{
+    background-color: #f7dae9;
+}
+.navbar-custom {
+    background-color: #ff69b4; /* Color de fondo rosado */
+    padding-top: 0.5rem; /* Ajusta el padding superior */
+    padding-bottom: 0.5rem; /* Ajusta el padding inferior */
+    }
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff; /* Letras blancas */
+}
+.navbar-custom .nav-link:hover {
+    color: #f8f9fa; /* Letras ligeramente más claras al pasar el cursor */
+}
+.navbar-custom .nav-link {
+    transition: color 0.3s; /* Transición suave del color */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #e23de7; /* Color rosado suave al hacer hover */
+    transform: scale(1.1);
+}
+.navbar-brand img {
+    max-height: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+.navbar-brand img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% al pasar el cursor */
+}
+.navbar-toggler {
+    border: none; /* Quitar el borde del botón */
+}
+.navbar-toggler .fas {
+    color: #ffffff; /* Color blanco para el icono */
+}
+.carousel-item img {
+    max-height: 600px; /* Ajusta la altura máxima de las imágenes */
+    margin: auto; /* Centra las imágenes horizontalmente */
+}
+
+/* Estilo para el texto sobre el carrusel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo transparente oscuro */
+    padding: 20px; /* Espaciado interno */
+    text-align: right; /* Alineación del texto a la derecha */
+    bottom: 20px; /* Distancia desde abajo */
+    left: 20px; /* Distancia desde la izquierda */
+    right: 20px; /* Distancia desde la derecha */
+}
+
+/* Estilo para el texto dentro del carrusel */
+.carousel-caption h5,
+.carousel-caption p {
+    color: #ffffff; /* Color del texto blanco */
+}
+.card-body .btn-custom {
+    background-color: #ff69b4; /* Color rosa */
+    border-color: #ff69b4; /* Color del borde */
+  }
+  .card {
+    transition: transform 0.3s; /* Transición suave de transformación */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumentar tamaño al hacer hover */
+}
+
+footer {
+    background-color: #ff69b4;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s; /* Transición suave del color */
+  }
+
+  .social-icons a:hover {
+    color: inherit; /* Heredar el color del elemento padre */
+  }
+
+  .social-icons a:hover .fab.fa-instagram {
+    color: #9f08f3; /* Color de Instagram al hacer hover */
+  }
+
+  .social-icons a:hover .fab.fa-whatsapp {
+    color: #25d366; /* Color de WhatsApp al hacer hover */
+  }
+
+  .social-icons a:hover .fab.fa-facebook {
+    color: #1877f2; /* Color de Facebook al hacer hover */
+  }
